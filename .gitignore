@@ -1,0 +1,9 @@
+# lavarvel
+/vendor
+/node_modules
+.env
+composer.lock
+/node_modules
+
+# phpstorm
+/.idea

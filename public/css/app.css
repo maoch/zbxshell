@@ -1,0 +1,78 @@
+@charset "UTF-8";
+body {
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+  margin-top: 105px; }
+
+.sub-title {
+  padding: 15px; }
+
+.info-table > tbody > tr > td {
+  border: none; }
+
+.info-table > tbody > tr > td:first-child {
+  padding-right: 16px;
+  text-align: right;
+  font-weight: bold; }
+
+.text-success {
+  color: #5CB85C; }
+
+.text-warning {
+  color: #F0AD4E; }
+
+.text-danger {
+  color: #D9534F; }
+
+.fa {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+@media (min-width: 768px) {
+  body {
+    margin-top: 50px; }
+  .content-wrapper {
+    padding-left: 200px; }
+  .line-chart, .donut-chart {
+    height: 280px; } }
+
+.login-form {
+  margin-top: 25%; }
+
+@media (min-width: 768px) {
+  .side-navbar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0px;
+    width: 200px;
+    border: none;
+    border-radius: 0;
+    background-color: #222;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 30px; }
+  .side-navbar > li > a {
+    width: 200px; } }
+
+.side-navbar > li > a:hover,
+.side-navbar > li > a:focus {
+  outline: none;
+  background-color: #000 !important; }
+
+.side-navbar .fa {
+  padding-right: 40px; }
+
+.search-form {
+  font-family: "Arial", "FontAwesome";
+  margin: 8px 10px; }
+
+.search-form > input {
+  border-radius: 18px; }
+
+.top-navbar .fa {
+  padding-left: 10px;
+  padding-right: 20px; }
+
+/*# sourceMappingURL=app.css.map */

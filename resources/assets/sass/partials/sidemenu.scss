@@ -1,0 +1,39 @@
+@media(min-width: 768px) {
+  .side-navbar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0px;
+    width: 200px;
+    border: none;
+    border-radius: 0;
+    background-color: #222;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+  }
+  .side-navbar > li > a {
+    width: 200px;
+  }
+}
+
+.side-navbar > li > a:hover,
+.side-navbar > li > a:focus {
+  outline: none;
+  background-color: #000 !important;
+}
+
+.side-navbar .fa {
+  padding-right: 40px;
+}
+
+.search-form {
+  font-family: "Arial", "FontAwesome";
+  margin: 8px 10px;
+}
+
+.search-form > input {
+  border-radius:18px;
+}

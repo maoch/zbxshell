@@ -1,0 +1,11 @@
+{
+  "name": "laravel/laravel",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.4",
+    "font-awesome": "~4.3.0",
+    "html5shiv": "~3.7.2",
+    "responsejs": "~0.9.1",
+    "morrisjs": "~0.5.1"
+  }
+}

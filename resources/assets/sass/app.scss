@@ -1,0 +1,54 @@
+body {
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+  margin-top: 105px;
+}
+
+.sub-title {
+  padding: 15px;
+}
+
+.info-table > tbody > tr > td {
+  border: none;
+}
+
+.info-table > tbody > tr > td:first-child {
+  padding-right: 16px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.text-success {
+  color: #5CB85C;
+}
+
+.text-warning {
+  color: #F0AD4E;
+}
+
+.text-danger {
+  color: #D9534F;
+}
+
+.fa {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media(min-width: 768px) {
+  body {
+    margin-top: 50px;
+  }
+
+  .content-wrapper {
+    padding-left: 200px;
+  }
+
+  .line-chart, .donut-chart {
+    height: 280px;
+  }
+}
+
+@import "auth/login";
+@import "partials/sidemenu";
+@import "partials/topmenu";
+
