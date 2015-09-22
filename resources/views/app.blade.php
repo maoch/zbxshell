@@ -21,6 +21,7 @@
     <!--[if lt IE 9]>
     <script src="{{ asset('/js/vendor/html5shiv.js') }}"></script>
     <script src="{{ asset('/js/vendor/respond.js') }}"></script>
+    <script src="{{ asset('/js/vendor/excanvas.min.js') }}"></script>
     <![endif]-->
 </head>
 <body>
@@ -35,6 +36,7 @@
 <script src="{{ asset('/js/vendor/morris.js') }}"></script>
 <script src="{{ asset('/js/vendor/jquery.flot.js') }}"></script>
 <script src="{{ asset('/js/vendor/jquery.flot.time.js') }}"></script>
+<script src="{{ asset('/js/vendor/jquery.flot.selection.js') }}"></script>
 
 @yield('scripts')
 </body>

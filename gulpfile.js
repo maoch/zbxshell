@@ -48,5 +48,11 @@ elixir(function (mix) {
         'public/js/vendor/jquery.flot.js')
         .copy(
         'vendor/bower/Flot/jquery.flot.time.js',
-        'public/js/vendor/jquery.flot.time.js');
+        'public/js/vendor/jquery.flot.time.js')
+        .copy(
+        'vendor/bower/Flot/jquery.flot.selection.js',
+        'public/js/vendor/jquery.flot.selection.js')
+        .copy(
+        'vendor/bower/Flot/excanvas.min.js',
+        'public/js/vendor/excanvas.min.js');
 });

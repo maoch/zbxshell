@@ -425,7 +425,7 @@ class ZbxTopController extends Controller
                             "output": "extend",
                             "history": 0,
                             "itemids": "' . $itemid . '",
-                            "time_from":"' . strtotime('-1 week') . '",
+                            "time_from":"' . strtotime('-1 days') . '",
                             "sortfield": "clock",
                             "sortorder": "DESC"
                         }';
@@ -434,7 +434,6 @@ class ZbxTopController extends Controller
             $historyStr .= '[' . ($eventResponse->clock * 1000) . ',' . $eventResponse->value . '],';
         }
         $historyStr = '[' . substr($historyStr, 0, strlen($historyStr) - 1) . ']';
-
         return view('devices.detail.history', compact('hostid', 'name', 'itemid', 'itemName', 'historyStr'));
     }
 

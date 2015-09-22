@@ -2,7 +2,6 @@
 
 
 Route::get('/', 'ZbxTopController@getLogin');
-
 Route::post('login', 'ZbxTopController@postLogin');
 Route::get('logout', 'ZbxTopController@getLogout');
 
